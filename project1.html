@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project 1 — Nile Dot Com</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="tabs" aria-label="Primary navigation">
+      <a class="tab" href="index.html">Home</a>
+      <a class="tab" aria-current="page" href="project1.html">Project 1</a>
+      <a class="tab" href="project2.html">Project 2</a>
+    </nav>
+    <h1 class="page-title">Project 1 — Nile Dot Com</h1>
+    <span class="underline" aria-hidden="true"></span>
+  </header>
+
+  <main id="content" class="container">
+    <p>Event-driven e-commerce simulation built with Java Swing. The application reads an external <code>inventory.csv</code> file, validates item lookups and quantities, applies bulk discounts, calculates totals with tax, appends transactions to <code>transactions.csv</code>, and renders an invoice UI.</p>
+
+    <section aria-labelledby="p1-files">
+      <h2 id="p1-files" class="section-title">Included Files</h2>
+      <ul class="kv">
+        <li><code>NileDotCom.java</code> — Java Swing storefront</li>
+        <li><code>inventory.csv</code> — Product catalog (id, title, in-stock, quantity on hand, price)</li>
+        <li><code>transactions.csv</code> — Appended order log</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="p1-skills">
+      <h2 id="p1-skills" class="section-title">Skills Learned</h2>
+      <ul class="kv">
+        <li>Event-driven programming with Swing (panels, layout, buttons, text fields)</li>
+        <li>File I/O and CSV parsing</li>
+        <li>Input validation and error handling</li>
+        <li>Cart state management and pricing/discount logic</li>
+        <li>Formatted invoices and transaction logging</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="p1-shots">
+      <h2 id="p1-shots" class="section-title">Screenshots</h2>
+      <figure class="shot">
+        <img src="images/Screenshot (734).png" alt="Nile Dot Com main GUI window" />
+        <figcaption>Nile Dot Com — main GUI</figcaption>
+      </figure>
+
+      <div class="shot-grid">
+        <figure class="shot">
+          <img src="images/Screenshot (745).png" alt="inventory.csv opened in Excel, example view" />
+          <figcaption><code>inventory.csv</code> view</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/Screenshot (746).png" alt="inventory.csv opened in Excel, additional view" />
+          <figcaption>Additional inventory view</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/Screenshot (747).png" alt="inventory.csv opened in Excel, another view" />
+          <figcaption>Another inventory view</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Dave Orr Jr</p>
+  </footer>
+</body>
+</html>
